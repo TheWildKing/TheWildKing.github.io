@@ -52,7 +52,29 @@
       text-decoration: none;
       font-weight: bold;
     }
-    
+
+    /* Table styling */
+    table {
+        width: 80%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    /* Image styling */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     /* Main Content */
     .container {
       max-width: 960px;
@@ -98,19 +120,29 @@
         <br><br>
         Please do not hesitate to contact us with a request and get a free quote for our services.
       </p>
-
+      <br>
       <h2>The Team</h2>
-      <nav>
-        <ul>
-          <li>Michael Autorino <p>CEO</p></li>
-          <li>John Doe <p>COO</p></li>
-        </ul>
-        
-      </nav>
+      
+      <table>
+        <tr>
+            <th>Image</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="image1.jpg" alt="Image 1"></td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque feugiat elit, nec scelerisque ligula fringilla sed.</td>
+        </tr>
+        <tr>
+            <td><img src="image2.jpg" alt="Image 2"></td>
+            <td>Integer commodo luctus felis, a malesuada nunc ultricies nec. Vivamus sit amet magna vitae massa eleifend aliquet.</td>
+        </tr>
+        <tr>
+            <td><img src="image3.jpg" alt="Image 3"></td>
+            <td>Aliquam nec nunc non lorem vehicula interdum. Duis euismod euismod eros, eget faucibus nunc dapibus eu.</td>
+        </tr>
+    </table>
 
-      <p>
-
-      </p>
+  
     </section>
 
 
@@ -123,6 +155,8 @@
         <a href="#mrexample/index.html">View Project</a>
       </div>
     </section>
+
+    <br>
 
     <section id="contact">
       <h2>Contact</h2>
